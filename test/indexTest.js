@@ -3,7 +3,9 @@ describe("index.js", () => {
     expect(divide).to.exist
   })
 
-  it("divide divides 2000 by 100", () => {
+ 
+})
+ it("divide divides 2000 by 100", () => {
     expect(divide()).to.equal(20)
   })
 
@@ -25,4 +27,4 @@ describe("index.js", () => {
     let b = 4
     expect(add(a,b)).to.equal(a+b)
   })
-})
+
